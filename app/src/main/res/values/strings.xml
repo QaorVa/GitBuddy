@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GitBuddy</string>
+    <string name="searchbar_hint">Search Username…</string>
+    <string name="user_name">Username User</string>
+    <string name="name">Nama User</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+    <string name="error_message">No Data Found</string>
+</resources>

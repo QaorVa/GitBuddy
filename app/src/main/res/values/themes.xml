@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GitBuddy" parent="Theme.Material3.Dark">
+        <item name="colorPrimary">@color/dark_secondary</item>
+    </style>
+
+    <style name="Theme.GitBuddy" parent="Base.Theme.GitBuddy" />
+
+    <style name="Theme.App.SplashScreen" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/black</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/gitbuddy_logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.GitBuddy</item>
+    </style>
+</resources>
